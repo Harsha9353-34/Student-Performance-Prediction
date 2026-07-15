@@ -1,42 +1,67 @@
-# Student Performance Prediction using Machine Learning
+# 🎓 Student Performance Prediction using Machine Learning
 
-## Overview
+## 📌 Overview
 This project predicts a student's final marks based on:
-- Study Hours
-- Attendance
-- Previous Marks
+- 📚 Study Hours
+- 🏫 Attendance
+- 📝 Previous Marks
 
-The model is built using Linear Regression and deployed with Streamlit.
+The application uses **Linear Regression**, a supervised machine learning algorithm, and provides predictions through an interactive **Streamlit** web interface.
 
-## Technologies Used
+## 🚀 Features
+- Predict student final marks
+- Interactive Streamlit UI
+- Machine Learning model using Scikit-learn
+- Easy-to-use interface
+
+## 🛠️ Technologies Used
 - Python
 - Pandas
 - Scikit-learn
 - Streamlit
 - Joblib
 
-## Machine Learning Algorithm
-- Linear Regression
+## 🧠 Machine Learning
+- Algorithm: Linear Regression
+- Type: Supervised Learning
 
-## How to Run
+## 📂 Project Structure
 
-1. Install dependencies:
+Student-Performance-Prediction/
+├── app.py
+├── train_model.py
+├── student_data.csv
+├── model.pkl
+├── requirements.txt
+└── README.md
+
+## ▶️ How to Run
+
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Train the model:
+Train the model:
+
 ```bash
 python train_model.py
 ```
 
-3. Run the application:
+Run the application:
+
 ```bash
 streamlit run app.py
 ```
 
-## Future Improvements
-- Use a larger dataset
-- Add more input features
+## 🔮 Future Improvements
+- Use a larger real-world dataset
 - Compare multiple ML algorithms
 - Improve UI and visualization
+- Deploy the application online
+
+
+## Application Preview
+
+![Application Screenshot](screenshot.png)
